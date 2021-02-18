@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Hexo • Posts by &#34;eroge&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2021-02-18T11:04:12.000Z</updated>
+    <category term="casual" />
+    <category term="eroge" />
+    <category term="site" />
+    <entry>
+        <id>http://example.com/2021/02/18/eroge/%E9%80%9A%E8%BF%87%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E6%8E%A8%E9%BB%84%E6%B2%B9%E7%9A%84%E6%96%B9%E6%B3%95/</id>
+        <title>通过远程桌面推黄油的方法</title>
+        <link rel="alternate" href="http://example.com/2021/02/18/eroge/%E9%80%9A%E8%BF%87%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E6%8E%A8%E9%BB%84%E6%B2%B9%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+        <content type="html">&lt;h1 id=&#34;通过远程桌面推黄油的方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通过远程桌面推黄油的方法&#34;&gt;#&lt;/a&gt; 通过远程桌面推黄油的方法&lt;/h1&gt;
+&lt;h2 id=&#34;使用ipad来推黄油&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用ipad来推黄油&#34;&gt;#&lt;/a&gt; 使用 iPad 来推黄油&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;本篇文章主要用来介绍移动终端对 Windows 远程操作，不单独针对 iPad 方面或黄油方面&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;每次在讨论各家平板的有点的时候，总有人会说 iPad 不能推黄油，其实通过远程桌面功能，还是能够实现 iPad 同样的黄油功能的。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;下面以 iPad 为例，演示内容&lt;/s&gt;&lt;/p&gt;
+&lt;h3 id=&#34;一将ipad和pc接入同一局域网内&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一将ipad和pc接入同一局域网内&#34;&gt;#&lt;/a&gt; 一。将 iPad 和 PC 接入同一局域网内&lt;/h3&gt;
+&lt;h4 id=&#34;1直接将ipad和pc连接在同一个路由器下即可&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1直接将ipad和pc连接在同一个路由器下即可&#34;&gt;#&lt;/a&gt; 1. 直接将 iPad 和 PC 连接在同一个路由器下即可&lt;/h4&gt;
+&lt;p&gt;&lt;s&gt;路由器不可开启 IP 隔离&lt;/s&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2windows端开启移动热点服务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2windows端开启移动热点服务&#34;&gt;#&lt;/a&gt; 2.Windows 端开启&lt;strong&gt;移动热点&lt;/strong&gt;服务&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/1.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+&lt;sub&gt;Windows10 中自带的移动热点位置&lt;/sub&gt;&lt;/p&gt;
+&lt;h4 id=&#34;3同时将ipad和pc连接上手机热点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3同时将ipad和pc连接上手机热点&#34;&gt;#&lt;/a&gt; 3. 同时将 iPad 和 PC 连接上手机热点&lt;/h4&gt;
+&lt;p&gt;&lt;s&gt;记得手机连上 WiFi 或断开流量&lt;/s&gt;&lt;/p&gt;
+&lt;h3 id=&#34;二找到电脑的ip地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二找到电脑的ip地址&#34;&gt;#&lt;/a&gt; 二。找到电脑的 IP 地址&lt;/h3&gt;
+&lt;p&gt;电脑打开 cmd 输入 ipconfig 命令，查看回执，如果是用 WiFi 连接路由器，选择&lt;em&gt;无线局域网适配器 WLAN&lt;/em&gt;，如果是用网线连接，就选择&lt;em&gt;以太网适配器&lt;/em&gt;。&lt;br /&gt;
+&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/2.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+&lt;sub&gt; 电脑的 ipv4 地址&lt;/sub&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三软件部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三软件部分&#34;&gt;#&lt;/a&gt; 三。软件部分&lt;/h3&gt;
+&lt;h4 id=&#34;1-vnc软件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-vnc软件&#34;&gt;#&lt;/a&gt; 1. VNC 软件&lt;/h4&gt;
+&lt;p&gt;vnc 需要电脑和 iPad 都安装软件&lt;/p&gt;
+&lt;h5 id=&#34;1电脑端服务器端&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1电脑端服务器端&#34;&gt;#&lt;/a&gt; (1) 电脑端（&lt;s&gt;服务器端&lt;/s&gt;）&lt;/h5&gt;
+&lt;p&gt;电脑端用浏览器搜索&lt;strong&gt; vnc server&lt;/strong&gt;，进入&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmVhbHZuYy5jb20vZW4vY29ubmVjdC9kb3dubG9hZC92bmMv&#34;&gt; vnc 官网&lt;/span&gt;下载 Windows 端服务器软件即可。&lt;br /&gt;
+&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/3.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+&lt;sub&gt; 搜索结果&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/4.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+&lt;sub&gt; 下载界面&lt;/sub&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2平板端客户端&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2平板端客户端&#34;&gt;#&lt;/a&gt; (2) 平板端（&lt;s&gt;客户端&lt;/s&gt;）&lt;/h5&gt;
+&lt;p&gt;平板端进入应用市场下载即可，其他系统的也可去官网下载&lt;br /&gt;
+&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/5.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+&lt;sub&gt; 第一个就是&lt;/sub&gt;&lt;/p&gt;
+&lt;h5 id=&#34;3客户端设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3客户端设置&#34;&gt;#&lt;/a&gt; (3) 客户端设置&lt;/h5&gt;
+&lt;p&gt;点击 vnc 右上角的加号，出现这个 details 界面。address 界面填写&lt;s&gt;第二步获取到的&lt;/s&gt;电脑的 IP 地址，&lt;s&gt;name 的地方随便填写，只是用来辨识的。&lt;/s&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/6.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+ 填写之后点右上角的 done，主界面上出现一个电脑图标，点击进去，出现下图界面。&lt;br /&gt;
+Windows10 的话，username 和 password 就是你登录电脑用的 outlook 账号密码；Windows7 的话，要&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29tL3M/aWU9VVRGLTgmYW1wO3dkPVdpbmRvd3M3JUU1JTg4JTlCJUU1JUJCJUJBJUU4JUI0JUE2JUU2JTg4JUI3&#34;&gt;手动创建账户&lt;/span&gt;。&lt;br /&gt;
+&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/7.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+ 填完之后，继续 continue，就能看到电脑界面了。&lt;br /&gt;
+&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/8.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+&lt;sub&gt; 远程桌面视角&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;之后你就能手搓玻璃推黄油了（滑稽）&lt;/p&gt;
+&lt;h4 id=&#34;微软远程桌面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#微软远程桌面&#34;&gt;#&lt;/a&gt; 微软远程桌面&lt;/h4&gt;
+&lt;p&gt;同样的方法，右上角加号输入就好，道理一模一样&lt;br /&gt;
+&lt;img data-src=&#34;https://recittal.gitee.io/picture/remote/9.jpg&#34; alt=&#34;Alt&#34; /&gt;&lt;br /&gt;
+&lt;sub&gt; 微软远程桌面&lt;/sub&gt;&lt;/p&gt;
+&lt;h3 id=&#34;四补充部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四补充部分&#34;&gt;#&lt;/a&gt; 四。补充部分&lt;/h3&gt;
+&lt;p&gt;1. 基本上所有直连的远程软件，设置的地方都是大同小异的，主要就是 IP 地址和账号密码的确定，能知道这两个地方，其他的远程软件，如 sbeam 家的 sbeamlink、nvidia 家的 moonlight 都是可以连接的。&lt;br /&gt;
+2.vnc 连接无法传输声音，建议带上蓝牙耳机一劳永逸。&lt;br /&gt;
+3. 微软远程桌面相当于是新建了一个桌面，电脑端是无法操作的，可以远程声音，但是如果网络不好，可能声音是断断续续的。&lt;br /&gt;
+4. 最后，写这个的目的是给大家一个更多的选择。对我来说也就是躺床上玩游戏的方便。Windows 可选的游戏数量比 krkr 多多了。&lt;/p&gt;
+&lt;h3 id=&#34;原创说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#原创说明&#34;&gt;#&lt;/a&gt; 原创说明&lt;/h3&gt;
+&lt;p&gt;此文是本人于 2019.12.28 发布于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY29vbGFway5jb20v&#34;&gt;酷安社区&lt;/span&gt;，暂未任何人转载。&lt;/p&gt;
+</content>
+        <category term="eroge" />
+        <updated>2021-02-18T11:04:12.000Z</updated>
+    </entry>
+</feed>
